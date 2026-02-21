@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodologías de Desarrollo de Software</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: #f4f6f9;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #0d47a1;
+            color: white;
+            padding: 60px;
+            text-align: center;
+        }
+        header p{
+            font-size: 48px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background: #1565c0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+        }
+
+        h1, h2, h3 {
+            color: #0d47a1;
+        }
+
+        .card {
+            background: #fafafa;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 6px solid #1565c0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        .datos {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Blog Académico</h1>
+    <p>Metodologías de Desarrollo de Software</p>
+</header>
+
+<nav>
+    <a href="#intro">Introducción</a>
+    <a href="#tradicionales">Tradicionales</a>
+    <a href="#agiles">Ágiles</a>
+    <a href="#comparacion">Comparación</a>
+    <a href="#datos">Datos del Curso</a>
+    <a href="#referencias">Referencias</a>
+</nav>
+
+<div class="container">
+
+<section id="intro">
+    <h2>¿Qué es la Ingeniería de Software?</h2>
+    <p>
+        La ingeniería de software es una disciplina que aplica métodos, herramientas y técnicas
+        para desarrollar programas informáticos de manera estructurada, asegurando calidad,
+        funcionalidad y mantenimiento a lo largo del ciclo de vida del sistema.
+    </p>
+
+    <p>
+        Incluye actividades como:
+    </p>
+
+    <ul>
+        <li>Análisis de requerimientos</li>
+        <li>Diseño del sistema</li>
+        <li>Programación</li>
+        <li>Pruebas</li>
+        <li>Mantenimiento</li>
+    </ul>
+
+    <div class="card">
+        <h3>Ejemplo Real</h3>
+        <p>
+            Cuando un banco desarrolla una aplicación móvil, necesita planificar cómo funcionará,
+            cómo se protegerán los datos y cómo se actualizará con el tiempo.
+            Todo eso se logra aplicando ingeniería de software.
+        </p>
+    </div>
+</section>
+
+<section id="tradicionales">
+    <h2>Metodologías Tradicionales</h2>
+
+    <p>
+        Son metodologías rígidas donde todos los requisitos se definen al inicio del proyecto
+        y se sigue un proceso secuencial.
+    </p>
+
+    <h3>1. Modelo en Cascada</h3>
+    <ul>
+        <li>Requisitos</li>
+        <li>Diseño</li>
+        <li>Implementación</li>
+        <li>Verificación</li>
+        <li>Mantenimiento</li>
+    </ul>
+
+    <div class="card">
+        <strong>Ejemplo:</strong>
+        Desarrollo de un sistema de control para una fábrica donde los cambios son mínimos
+        y todo debe estar documentado antes de iniciar.
+    </div>
+
+    <h3>2. Modelo Incremental</h3>
+    <p>
+        El sistema se construye por partes funcionales llamadas incrementos.
+    </p>
+
+    <div class="card">
+        <strong>Ejemplo:</strong>
+        Primero se desarrolla el login de un sistema, luego reportes, luego administración.
+    </div>
+
+    <h3>3. Modelo Espiral</h3>
+    <p>
+        Combina desarrollo iterativo con análisis de riesgos.
+    </p>
+
+    <h3>4. Prototipos</h3>
+    <p>
+        Se crea una versión preliminar para que el usuario la pruebe antes del sistema final.
+    </p>
+
+    <h3>5. RAD (Rapid Application Development)</h3>
+    <p>
+        Prioriza la entrega rápida mediante construcción acelerada y retroalimentación constante.
+    </p>
+</section>
+
+<section id="agiles">
+    <h2>Metodologías Ágiles</h2>
+
+    <p>
+        Surgen como respuesta a la necesidad de adaptarse a cambios constantes.
+        Se enfocan en colaboración, flexibilidad y entregas rápidas.
+    </p>
+
+    <h3>Características Principales</h3>
+    <ul>
+        <li>Trabajo en equipo multidisciplinario</li>
+        <li>Entregas frecuentes</li>
+        <li>Adaptación al cambio</li>
+        <li>Comunicación constante con el cliente</li>
+    </ul>
+
+    <div class="card">
+        <h3>Ejemplo Real</h3>
+        <p>
+            Empresas que desarrollan aplicaciones móviles actualizan funciones cada semana
+            basándose en la retroalimentación de los usuarios.
+        </p>
+    </div>
+
+    <h3>Ventajas</h3>
+    <ul>
+        <li>Mayor flexibilidad</li>
+        <li>Entrega rápida de valor</li>
+        <li>Corrección temprana de errores</li>
+    </ul>
+
+    <h3>Desventajas</h3>
+    <ul>
+        <li>Menor documentación</li>
+        <li>Dependencia del equipo</li>
+        <li>Difícil en proyectos muy grandes</li>
+    </ul>
+</section>
+
+<section id="comparacion">
+    <h2>Comparación entre Metodologías</h2>
+
+    <table border="1" cellpadding="10" width="100%">
+        <tr style="background:#1565c0; color:white;">
+            <th>Característica</th>
+            <th>Tradicional</th>
+            <th>Ágil</th>
+        </tr>
+        <tr>
+            <td>Flexibilidad</td>
+            <td>Baja</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td>Documentación</td>
+            <td>Extensa</td>
+            <td>Moderada</td>
+        </tr>
+        <tr>
+            <td>Cambios</td>
+            <td>Difíciles</td>
+            <td>Bienvenidos</td>
+        </tr>
+        <tr>
+            <td>Tiempo de entrega</td>
+            <td>Largo</td>
+            <td>Corto</td>
+        </tr>
+    </table>
+</section>
+
+<section id="datos">
+    <h2>Datos Generales del Curso</h2>
+
+    <div class="datos">
+        <p><strong>Universidad:</strong> Universidad Mariano Gálvez de Guatemala</p>
+        <p><strong>Curso:</strong> Ingeniería de Software</p>
+        <p><strong>Tema:</strong> Metodologías de Desarrollo de Software</p>
+        <p><strong>Estudiante:</strong> Robinson Roberto Singer Morales</p>
+        <p><strong>Catedrático:</strong> Carlos Godinez</p>
+    </div>
+</section>
+
+<section id="referencias">
+    <h2>Referencias (Normas APA 7ª edición)</h2>
+
+    <p>
+        Pressman, R. S., & Maxim, B. R. (2020).
+        <em>Ingeniería del software: Un enfoque práctico</em>.
+        McGraw-Hill.
+    </p>
+
+    <p>
+        Sommerville, I. (2016).
+        <em>Software Engineering</em> (10th ed.).
+        Pearson.
+    </p>
+
+    <p>
+        Material didáctico del curso de Ingeniería de Software.
+    </p>
+</section>
+
+</div>
+
+<footer>
+    <p>Blog Académico - Metodologías de Desarrollo de Software</p>
+</footer>
+
+</body>
+</html>
